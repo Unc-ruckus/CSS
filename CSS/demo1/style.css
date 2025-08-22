@@ -7,7 +7,7 @@ p{
 .paksu{
      font-weight: bold;
 }
-#viivaus{
+#viivaus, .alleviivaus{
      text-decoration: underline;
 }
 a{
