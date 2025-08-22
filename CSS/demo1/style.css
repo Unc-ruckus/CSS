@@ -1,0 +1,20 @@
+h1,h2,h3{
+     font-style: italic;
+}
+p{
+     font-family: Arial, Helvetica, sans-serif;
+}
+.paksu{
+     font-weight: bold;
+}
+#viivaus{
+     text-decoration: underline;
+}
+a{
+     color: green;
+}
+a:hover{
+     color: cyan;
+     text-decoration: none;
+     cursor: pointer;
+}
