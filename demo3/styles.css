@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div p{
+    color: white;
+}
+.box1, .box2{
+    width: 800px;
+    display: inline-block;
+    margin: 1em;
+}
+.box1{
+    height: 200px;
+    background-color: red;
+    border: solid 16px blue;
+    box-shadow: 1em 1em 16px 6px #333;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+.box2{
+    height: 300px;
+    background-color: blue;
+    border: dashed 1em red;
+    box-shadow: 6px 8px 4px 2px #777;
+    padding: 1em 2em;
+    margin-top: 1em;
+}
