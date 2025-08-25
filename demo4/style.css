@@ -2,11 +2,18 @@
 :root{
     --primary-main:#5c0099;
     --primary-light:#9900ff;
-    --primary-dark:#7a00cc;
+    --primary-dark:#a84ae7;
     --contrast-text:#fff;
+    --background:#fff;
+    --text-primary:#111;
+    color-scheme: light dark;
+    --background-dark:#111;
+    --text-dark:#fff;
 }
 body{
     font-family: "Open Sans", sans-serif;
+    background-color: light-dark(var(--background), var(--primary-dark));
+    color: light-dark(var(--text-primary), var(--text-dark));
 }
 h1, h2{
     color: var(--primary-main);
@@ -20,9 +27,9 @@ button{
     border-radius: 1em;
 }
 button:hover{
-    background-color: var(--primary-dark)
+    background-color: var(--primary-dark);
 }
 button:focus{
-    background-color:#7a00cc;
+    background-color:var(--primary-light);
     border: none;
 }
