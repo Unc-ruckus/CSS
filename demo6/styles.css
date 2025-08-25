@@ -1,0 +1,18 @@
+body{
+    background-image: url(oriental-tiles.png);
+}
+article:nth-child(odd) img{
+    float: right;
+}
+article img{
+    float: left;
+    margin-right: 1em;
+}
+#container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: #fff;
+}
