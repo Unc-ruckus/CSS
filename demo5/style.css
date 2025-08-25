@@ -1,0 +1,28 @@
+body{
+    background-image: url(f-35b-24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    min-height: 100vh;
+}
+.fighterjet{
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    border: 2em red dashed;
+}
+.taulu{
+    background-color: #111;
+    color: #fff;
+    width: 500px;
+    max-width: 80%;
+    border: solid thick #333;
+}
+.taulu img{
+    width: 100%;
+}
+.taulu figcaption{
+    text-align: center;
+}
