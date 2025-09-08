@@ -1,0 +1,47 @@
+.navbar-horizontal{
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar-horizontal ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.navbar-horizontal li{
+    margin: 0 15px;
+}
+.navbar-horizontal a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.navbar-horizontal a:hover{
+    background-color: #444;
+    border-radius: 5px;
+}
+.navbar-vertical{
+    background-color: #333;
+    padding: 20px;
+    width: 200px;
+}
+.navbar-vertical ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.navbar-vertical li{
+    margin: 10px 0;
+}
+.navbar-vertical a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.navbar-vertical a:hover{
+    background-color: #444;
+    border-radius: 5px;
+}
