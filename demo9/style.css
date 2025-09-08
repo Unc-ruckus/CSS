@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+main div{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: solid 3px red;
+    border-radius: 5px;
+    margin: 30px;
+    font-variant: italic;
+}
+main div:nth-child(odd){
+    background-color: aqua;
+}
+main div:nth-child(even){
+    background-color: yellow;
+}
+main div:nth-child(7){
+    background-color: blueviolet;
+}
+main div:nth-child(4){
+    visibility: hidden;
+}
+main div:last-child{
+    font-size: 1.5em;
+}
